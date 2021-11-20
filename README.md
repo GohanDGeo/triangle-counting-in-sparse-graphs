@@ -4,6 +4,7 @@ Contains 2 sequential implementations (that work similary) and 3 parallel implem
 Input is a Pattern Symmetrix market matrix file.
 
 To run:
+
 $ g++ -o parallelMatrixMultiplication.exe parallelMatrixMultiplication.cpp  -fcilkplus -lgomp -O3 -fopenmp -lpthread
 
 $ ./parallelMatrixMultiplication.exe
