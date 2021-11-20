@@ -18,3 +18,7 @@ Command line arguments can be used:
 3rd -> Matrix to load	(0: "com-Youtube.mtx" , 1: "belgium_osm.mtx" , 2: "dblp-2010.mtx" , 3: "mycielskian13.mtx" , 4: "NACA0015.mtx")
 
 The 3rd argument only if you have the above matrix files in the same directory. If that's not the case, change the filename variable in the main function of the cpp file.
+
+Author: Georgios Koutroumpis, ECE AUTH
+
+For the course Parallel and Distributed Systems, 2021-2022
