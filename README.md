@@ -5,6 +5,7 @@ Input is a Pattern Symmetrix market matrix file.
 
 To run:
 $ g++ -o parallelMatrixMultiplication.exe parallelMatrixMultiplication.cpp  -fcilkplus -lgomp -O3 -fopenmp -lpthread
+
 $ ./parallelMatrixMultiplication.exe
 
 Command line arguments can be used:
